@@ -8,44 +8,195 @@
     <title>Parkinson Kitchen</title>
 </head>
 <body>
-    <header class="header ">
-        <div class="container row">
-            <img src="" alt="" class="logo">
-            <nav class="nav">
+   <section class="header">
+       <header>
+           <a href="#" class="logo">Parkinsons.</a>
+           <nav class="nav__list">
+               <li class="nav__item">About</li>
+               <li class="nav__item">Menu</li>
+               <li class="nav__item">Calendar</li>
+           </nav>
+       </header>
+
+       <div class="hero__content">
+           <h1 class="hero__title">Cook with Us</h1>
+           <p class="hero__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis cumque recusandae, natus nemo sed dolores voluptate facere at consequatur nobis!</p>
+       </div>
+
+       <!-- <video src="images/food.mp4" autoplay muted loop></video> -->
+       <div class="img"></div>
+
+   </section>
+
+   <section class="menu">
+       <div class="container">
+        <h2 class="menu__specialty">Our Specialty</h2>
+           <div class="menu-test">
+               <div class="menu__first-dish">
+                    <h2>Chicken Burger</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias error, commodi inventore culpa ducimus, voluptatem nihil ex, consequatur nesciunt libero architecto aliquid dolore doloribus. Quia.</p>
+                    <span class="price">a high price</span>
+               </div>
+           </div>
+
+           <div class="divider"><img class="divider__img" src="images/swash_ornament.svg" alt="Divider"></div>
+
+           <div class="menu-test menu-test-pasta">
+            <div class="menu__first-dish menu-float-right">
+                 <h2>Alfredo Pasta</h2>
+                 <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias error, commodi inventore culpa ducimus, voluptatem nihil ex, consequatur nesciunt libero architecto aliquid dolore doloribus. Quia.</p>
+                 <span class="price">a high price</span>
+            </div>
+        </div>
+
+        <div class="divider"><img class="divider__img" src="images/swash_ornament.svg" alt="Divider"></div>
+
+        <div class="menu-test menu-test-veggi-pizza">
+            <div class="menu__first-dish">
+                 <h2>Veggi Pizza</h2>
+                 <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias error, commodi inventore culpa ducimus, voluptatem nihil ex, consequatur nesciunt libero architecto aliquid dolore doloribus. Quia.</p>
+                 <span class="price">a high price</span>
+            </div>
+        </div>
+
+        <div class="divider"><img class="divider__img" src="images/swash_ornament.svg" alt="Divider"></div>
+
+        <div class="menu-test menu-test-pineapple-pizza">
+            <div class="menu__first-dish menu-float-right">
+                 <h2>Pineapple Pizza</h2>
+                 <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias error, commodi inventore culpa ducimus, voluptatem nihil ex, consequatur nesciunt libero architecto aliquid dolore doloribus. Quia.</p>
+                 <span class="price">a high price</span>
+            </div>
+        </div>
+       </div>
+   </section>
+
+   <!-- <section class="menu">
+       <div class="container">
+        <h2 class="menu__specialty">Our Specialty</h2>
+           <div class="menu__first-dish">
+               <div class="row">
+                    <div class="dish__story">
+                        <h2 class="dish__name">Chicken Burger</h2>
+                        <p class="dish__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempore, accusamus veniam omnis voluptatibus tenetur distinctio, doloribus quia dolor eos atque, doloremque quis. Quo cum libero rerum minima obcaecati. Ratione reprehenderit mollitia tenetur facere beatae quas corporis magni fugiat accusantium.</p>
+                    </div>
+                    <div class="dish__image--container">
+                        <img src="images/burger-cropped.jpg" alt="Chicken Burger" class="dish__image">
+                    </div>
+               </div>
+           </div>
+
+           <div class="divider"><img class="divider__img" src="images/swash_ornament.svg" alt="Divider"></div>
+
+           <div class="menu__second-dish">
+            <div class="row row__ordered">
+                 <div class="dish__story">
+                     <h2 class="dish__name">Alfredo Pasta</h2>
+                     <p class="dish__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempore, accusamus veniam omnis voluptatibus tenetur distinctio, doloribus quia dolor eos atque, doloremque quis. Quo cum libero rerum minima obcaecati. Ratione reprehenderit mollitia tenetur facere beatae quas corporis magni fugiat accusantium.</p>
+                 </div>
+                 <div class="dish__image--container">
+                     <img src="images/pasta-cropped.jpg" alt="Chicken Burger" class="dish__image">
+                 </div>
+            </div>
+        </div>
+
+        <div class="divider"><img class="divider__img" src="images/swash_ornament.svg" alt="Divider"></div>
+
+        <div class="menu__third-dish">
+            <div class="row">
+                 <div class="dish__story">
+                     <h2 class="dish__name">Veggi Pizza</h2>
+                     <p class="dish__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempore, accusamus veniam omnis voluptatibus tenetur distinctio, doloribus quia dolor eos atque, doloremque quis. Quo cum libero rerum minima obcaecati. Ratione reprehenderit mollitia tenetur facere beatae quas corporis magni fugiat accusantium.</p>
+                 </div>
+                 <div class="dish__image--container">
+                     <img src="images/veggi-pizza.jpg" alt="Chicken Burger" class="dish__image">
+                 </div>
+            </div>
+        </div>
+
+        <div class="divider"><img class="divider__img" src="images/swash_ornament.svg" alt="Divider"></div>
+
+        <div class="menu__forth-dish">
+            <div class="row row__ordered">
+                 <div class="dish__story">
+                     <h2 class="dish__name">Pineapple Pizza</h2>
+                     <p class="dish__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempore, accusamus veniam omnis voluptatibus tenetur distinctio, doloribus quia dolor eos atque, doloremque quis. Quo cum libero rerum minima obcaecati. Ratione reprehenderit mollitia tenetur facere beatae quas corporis magni fugiat accusantium.</p>
+                 </div>
+                 <div class="dish__image--container">
+                     <img src="images/pineapple-pizza.jpg" alt="Chicken Burger" class="dish__image">
+                 </div>
+            </div>
+        </div>
+       </div>
+   </section> -->
+   
+   <section class="calendar">
+       <div class="container">
+           <div class="calendar__card">
+               <div class="face face1">
+                   <div class="calendar__content">
+                       <img class="content__image" src="images/chef-couple-cropped.jpg" alt="imaga for now">
+                       <h3 class="content__title">Something</h3>
+                   </div>
+               </div>
+               <div class="face face2">
+                   <div class="calendar__content">
+                       <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolor enim deserunt eius vitae hic ea reiciendis ex impedit earum?</p>
+                       <a href="#" class="content__btn">Book Now</a>
+                   </div>
+               </div>
+           </div>  
+       </div>
+   </section>
+
+    <footer class="footer"></footer>
+</body>
+</html>
+
+
+
+
+
+<!-- <header class="hero">
+    <div class="container">
+        <div class="row">
+            <nav class="hero__nav">
                 <ul class="nav__list">
                     <li class="nav__item">About Us</li>
                     <li class="nav__item">Menu</li>
                     <li class="nav__item">Calendar</li>
                 </ul>
             </nav>
+            <div class="hero__image">
+                <img class="image" src="images/chef.jpg" alt="">
+            </div>
         </div>
-    </header>
-    <main class="hero">
-        <div class="container">
+    </div>
+</header>
 
-        </div>
-    </main>
 
-    <section class="menu">
-        <div class="container">
+<main class="">
+    <div class="container">
+        <h1 class="title">Cook With Us</h1>
+    </div>
+</main>
 
-        </div>
-    </section>
+<section class="menu">
+    <div class="container">
 
-    <section class="calendar">
-        <div class="container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptates illo quibusdam, laudantium nemo modi accusamus mollitia quae. Alias, minima?</p>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <section class="music__player">
+<section class="calendar">
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptates illo quibusdam, laudantium nemo modi accusamus mollitia quae. Alias, minima?</p>
+    </div>
+</section>
 
-    </section>
+<section class="music__player">
 
-    <section class="testimonials">
+</section>
 
-    </section>
+<section class="testimonials">
 
-    <footer class="footer"></footer>
-</body>
-</html>
+</section> -->
