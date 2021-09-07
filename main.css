@@ -20,12 +20,16 @@ body {
 /* ----------------------------- */
 
 .menu-test {
-    background: url(images/burger-cropped.jpg) no-repeat right;
+    
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 8em 0;
     /* border: 2px solid pink; */
+}
+
+.menu-test-burger {
+    background: url(images/burger-cropped.jpg) no-repeat right;
 }
 
 .menu-test-pasta {
